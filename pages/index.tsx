@@ -9,7 +9,8 @@ import Banner from '../components/Banner';
 
 const Home: NextPage = () => {
   return (
-    <div className="flex-col items-center  relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-[140vh]">
+    <div
+      className="flex-col items-center relative h-screen bg-gradient-to-b from-gray-900/10 to-[#010511] lg:h-[140vh]">
       <Head>
         <title>Netflix - NextJS</title>
         <link rel="icon" href="/favicon.ico" />
